@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medha Kaushal | Personal Blog</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,Arial,sans-serif;
+}
+
+body{
+background:#f8f5ff;
+color:#333;
+}
+
+header{
+height:100vh;
+background:linear-gradient(rgba(84,54,124,.65),rgba(132,94,194,.6)),
+url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero{
+backdrop-filter:blur(8px);
+background:rgba(255,255,255,.12);
+padding:50px;
+border-radius:25px;
+width:80%;
+max-width:700px;
+}
+
+.hero img{
+width:180px;
+height:180px;
+border-radius:50%;
+border:6px solid white;
+margin-bottom:25px;
+}
+
+.hero h1{
+font-size:60px;
+letter-spacing:2px;
+margin-bottom:10px;
+}
+
+.hero h3{
+font-weight:300;
+margin-bottom:25px;
+}
+
+.hero button{
+padding:15px 35px;
+border:none;
+border-radius:30px;
+font-size:18px;
+margin:10px;
+cursor:pointer;
+background:white;
+color:#6b46c1;
+font-weight:bold;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+padding:20px;
+display:flex;
+justify-content:center;
+gap:50px;
+background:rgba(255,255,255,.85);
+backdrop-filter:blur(10px);
+font-weight:bold;
+}
+
+nav a{
+text-decoration:none;
+color:#6b46c1;
+}
+
+section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+color:#6b46c1;
+margin-bottom:50px;
+}
+
+.about{
+display:flex;
+align-items:center;
+gap:50px;
+}
+
+.about img{
+width:350px;
+border-radius:20px;
+}
+
+.about p{
+font-size:20px;
+line-height:1.8;
+}
+
+.blogs{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+.card h2{
+color:#6b46c1;
+margin-bottom:10px;
+}
+
+.card p{
+line-height:1.6;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:20px;
+}
+
+.quote{
+background:linear-gradient(45deg,#845ec2,#b39ddb);
+padding:80px;
+text-align:center;
+color:white;
+font-size:32px;
+font-style:italic;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact h2{
+font-size:35px;
+margin-bottom:20px;
+}
+
+footer{
+background:#6b46c1;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Blogs</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+<header>
+
+<div class="hero">
+
+<img src="https://via.placeholder.com/180" alt="Profile">
+
+<h1>Medha Kaushal</h1>
+
+<h3>Writer • Blogger • Dreamer</h3>
+
+<p style="font-size:20px;margin-bottom:25px;">
+Sharing stories, ideas and little moments that make life beautiful.
+</p>
+
+<button>Read Blogs</button>
+<button>About Me</button>
+
+</div>
+
+</header>
+
+<section>
+
+<h1 class="title">About Me</h1>
+
+<div class="about">
+
+<img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80">
+
+<p>
+
+Hello!
+
+I'm <b>Medha Kaushal</b>, a passionate writer who believes words can inspire, heal and connect people.
+
+This website is my personal space where I share blogs, travel experiences, poetry, life lessons and everything that inspires me.
+
+Every article is a piece of my journey, and I hope you'll enjoy reading them as much as I enjoy writing them.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h1 class="title">Latest Blogs</h1>
+
+<div class="blogs">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80">
+
+<h2>Finding Peace in the Mountains</h2>
+
+<p>
+A journey through silent valleys where nature teaches lessons no classroom ever could.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80">
+
+<h2>Why I Started Writing</h2>
+
+<p>
+Writing became my way of preserving emotions, memories and dreams.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80">
+
+<h2>Life Through My Eyes</h2>
+
+<p>
+Small moments often become the biggest stories when seen with an open heart.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="quote">
+
+"Words have the power to inspire, comfort and change lives."
+
+</div>
+
+<section>
+
+<h1 class="title">Gallery</h1>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80">
+
+<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80">
+
+<img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80">
+
+<img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80">
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>Let's Connect</h2>
+
+<p>Email : medhakaushal@example.com</p>
+
+<p>Instagram : @medhakaushal</p>
+
+<p>LinkedIn : Medha Kaushal</p>
+
+<p style="margin-top:30px;font-size:20px;">
+Thank you for visiting my website ❤️
+</p>
+
+</section>
+
+<footer>
+
+<h3>© 2026 Medha Kaushal</h3>
+
+<p>Designed with ❤️ for sharing stories and inspiration.</p>
+
+</footer>
+
+</body>
+</html>
